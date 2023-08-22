@@ -1,0 +1,9 @@
+.container {
+  $maxWidth: 121.6rem;
+  $sidePadding: 24px;
+
+  max-width: calc($maxWidth + $sidePadding * 2);
+
+  margin: 0 auto;
+  padding: 0 $sidePadding;
+}
